@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to travel Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+       <h1>Adamas University - IIT kharagpur Trip form</h1>
+       <p>Enter your details to confirm participation in the trip</p>
+
+       <form action="index.php" method="post">
+           <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+           <input type="text" name="dept" id="dept" placeholder="Enter your Department" required>
+           <input type="text" name="year" id="year" placeholder="Enter your Year" required>
+           <input type="text" name="age" id="age" placeholder="Enter your Age" required>
+           <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+           <input type="phone" name="phone" id="phone" placeholder="Enter your Phone Number" required>
+           <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other Information here" ></textarea>
+           <button class="btn">Submit</button>
+       </form>
+       <p class="submitmsg" style="color: rgb(26, 168, 13); font-size: 20px; ">your form has been submitted successfully!!</p>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

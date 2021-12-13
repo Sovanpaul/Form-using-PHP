@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    background-color: rgb(200, 164, 233);
+    padding: 38px;
+    margin: auto;
+    
+}
+.container h1, p{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    font-size: 19px;
+}
+
+input, textarea{
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid;
+    border-radius: 7px;
+    outline: none;
+    
+}
+
+.btn{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    background-color: purple;
+    padding: 7px 25px;
+    border-radius: 7px;
+    font-size: 15px;
+    border: 2px solid white;
+    cursor: pointer;
+    
+}
+
+form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
